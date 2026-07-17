@@ -1,4 +1,4 @@
-# KMZ Replication# KMZ Replication
+# KMZ Replication
 
 Replication of Kelly, Malamud and Zhou (2024), "The Virtue of Complexity in
 Return Prediction", *Journal of Finance* 79(1), 459–506.
@@ -15,7 +15,7 @@ Goyal–Welch monthly predictor dataset, from Amit Goyal's website
 
 - File: `raw/PredictorData2025.xlsx`
 - Vintage: updated through 2025
-- Downloaded: [DATE]
+- Downloaded: 17/07/2025
 - Note: from 2022, `lty` sourced from FRED and `ltr`/`corpr` from Bloomberg
   indices. Post-dates the 1926–2020 replication sample, so cannot affect
   these results.
