@@ -2,8 +2,6 @@
 
 This file records every place where our implementation makes a documented choice 
 that departs from, or resolves an ambiguity in, Kelly, Malamud & Zhou (2024) 
-["the paper"] or the project brief. Per the brief, this is a deliverable, not an 
-apology.
 
 ---
 
