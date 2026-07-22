@@ -45,6 +45,15 @@ def standardise(data, min_periods = 36):
     return data4 
 
 
+def load_data(path = raw_path):
+    raw = load_raw(path)
+    predictors = standardise(build_predictors(raw))
+    target = build_excess_return(raw)
+    combined = pd.concat([predictors, target], axis = 1)
+    combined = combined.dropna()
+    return combined
+
+
 if __name__ == "__main__":
     raw = load_raw()
     preds = standardise(build_predictors(raw))
